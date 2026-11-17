@@ -1,0 +1,15 @@
+Column Name	Description	Unit / Format
+timestamp	Date and time of the process observation	Datetime
+unit_id	Processing unit identifier: CDU-01, VDU-01, or NHT-01	Text
+shift	Operating shift associated with the observation	Text
+feed_volume_bbl	Volume of feed entering the process	barrels (bbl)
+throughput_bbl	Volume processed by the unit	barrels (bbl)
+temperature_C	Recorded process temperature	degrees Celsius (°C)
+pressure_bar	Recorded process pressure	bar
+energy_MWh	Energy consumed during the observation	megawatt-hours (MWh)
+downtime_hours	Recorded downtime duration	hours
+gasoline_yield_pct	Reported gasoline yield	Percent (%)
+diesel_yield_pct	Reported diesel yield	Percent (%)
+kerosene_yield_pct	Reported kerosene yield	Percent (%)
+residue_yield_pct	Reported residue yield	Percent (%)
+sample_number	Identifier assigned to the observation/sample	Text or number as stored
